@@ -6,7 +6,9 @@ install:
   - yarn add vuepress # 安装
 script:
   - yarn docs:build # npm run docs:build
-  - echo 'www.example.com' > CNAME  # CNAME
+after_success:
+  - cd dist
+  - echo 'haier.wiki' > CNAME # CNAME
 deploy:
   provider: pages
   skip_cleanup: true
