@@ -50,13 +50,13 @@ module.exports = {
                   ['a-1备战面试', '备战面试']
               ]
           },
-          {
-              title: '测试菜单2',
-              collapsable: false, 
-              children: [
-                  ['test2.md', '子菜单1']
-              ]
-          }
+          // {
+          //     title: '测试菜单2',
+          //     collapsable: false, 
+          //     children: [
+          //         ['test2.md', '子菜单1']
+          //     ]
+          // }
       ],
     },
   
