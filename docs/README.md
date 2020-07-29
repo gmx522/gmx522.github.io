@@ -3,7 +3,7 @@ home: true
 heroImage: /hero.jpg
 heroText: 记录点滴
 # tagline: Hero 副标题
-actionText: 开始 →
+actionText: 开  始 →
 actionLink: /guide/
 features:
 - title: 简洁至上
