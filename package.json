@@ -3,5 +3,12 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "vuepress": "^1.5.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-gotop-plus": "^1.0.4"
+  }
 }

@@ -59,10 +59,14 @@ module.exports = {
         // }
       ],
     },
-
     smoothScroll: true,
-
   },
-  
+  // 代码块显示行号
+  markdown: {
+    lineNumbers: true
+  },
+  plugins: [
+    require('./config/pluginConf.js')
+  ]
 
 }
